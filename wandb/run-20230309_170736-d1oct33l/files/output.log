@@ -1,0 +1,11 @@
+
+[128, 128, 128, 128]
+84.03888888888889
+[0.45124601]
+83.51666666666667
+[0.45585907]
+Create sweep with ID: xy2zmlle
+Sweep URL: https://wandb.ai/cs22m031/CS6910_DL_assignment_1/sweeps/xy2zmlle
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+[34m[1mwandb[39m[22m: Sweep Agent: Waiting for job.
+[34m[1mwandb[39m[22m: Job received.

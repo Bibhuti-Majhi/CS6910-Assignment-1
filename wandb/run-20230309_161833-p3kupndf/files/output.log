@@ -1,0 +1,74 @@
+Exception in thread Thread-20 (_run_job):
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 298, in _run_job
+    self._function()
+  File "/var/folders/lj/kz71w7bd4jq365nsc0cjx4mr0000gn/T/ipykernel_15832/2231202817.py", line 5, in main
+  File "/var/folders/lj/kz71w7bd4jq365nsc0cjx4mr0000gn/T/ipykernel_15832/1030256715.py", line 242, in fit
+NameError: name 'training_accuracy' is not defined. Did you mean: 'train_accuracy'?
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2092, in _atexit_cleanup
+    self._on_finish()
+  File "/opt/homebrew/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2326, in _on_finish
+    _ = exit_handle.wait(timeout=-1, on_progress=self._on_progress_exit)
+  File "/opt/homebrew/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 288, in wait
+    on_probe(probe_handle)
+  File "/opt/homebrew/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2291, in _on_probe_exit
+    result = handle.wait(timeout=0)
+  File "/opt/homebrew/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 271, in wait
+    raise MailboxError("transport failed")
+wandb.errors.MailboxError: transport failed
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.10/3.10.6_2/Frameworks/Python.framework/Versions/3.10/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/opt/homebrew/Cellar/python@3.10/3.10.6_2/Frameworks/Python.framework/Versions/3.10/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/homebrew/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 303, in _run_job
+    wandb.finish(exit_code=1)
+  File "/opt/homebrew/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 3686, in finish
+    wandb.run.finish(exit_code=exit_code, quiet=quiet)
+  File "/opt/homebrew/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 371, in wrapper
+    return func(self, *args, **kwargs)
+  File "/opt/homebrew/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 334, in wrapper
+    return func(self, *args, **kwargs)
+  File "/opt/homebrew/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1845, in finish
+    return self._finish(exit_code, quiet)
+  File "/opt/homebrew/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1860, in _finish
+    self._atexit_cleanup(exit_code=exit_code)
+  File "/opt/homebrew/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2103, in _atexit_cleanup
+    self._backend.cleanup()
+  File "/opt/homebrew/lib/python3.10/site-packages/wandb/sdk/backend/backend.py", line 259, in cleanup
+    self.interface.join()
+  File "/opt/homebrew/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 639, in join
+    super().join()
+  File "/opt/homebrew/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 742, in join
+    _ = self._communicate_shutdown()
+  File "/opt/homebrew/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 552, in _communicate_shutdown
+    _ = self._communicate(record)
+  File "/opt/homebrew/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 285, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/opt/homebrew/lib/python3.10/site-packages/wandb/sdk/interface/interface_sock.py", line 60, in _communicate_async
+    future = self._router.send_and_receive(rec, local=local)
+  File "/opt/homebrew/lib/python3.10/site-packages/wandb/sdk/interface/router.py", line 94, in send_and_receive
+    self._send_message(rec)
+  File "/opt/homebrew/lib/python3.10/site-packages/wandb/sdk/interface/router_sock.py", line 36, in _send_message
+    self._sock_client.send_record_communicate(record)
+  File "/opt/homebrew/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 216, in send_record_communicate
+    self.send_server_request(server_req)
+  File "/opt/homebrew/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "/opt/homebrew/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/opt/homebrew/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+[34m[1mwandb[39m[22m: Ctrl + C detected. Stopping sweep.
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+Create sweep with ID: m2gxd6tx
+Sweep URL: https://wandb.ai/cs22m031/CS6910_DL_assignment_1/sweeps/m2gxd6tx

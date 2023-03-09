@@ -1,0 +1,11 @@
+
+[34m[1mwandb[39m[22m: Ctrl + C detected. Stopping sweep.
+81.02962962962962
+[0.56000116]
+80.43333333333334
+[0.56347431]
+82.62962962962963
+[0.49875739]
+82.03333333333333
+[0.50255911]
+[34m[1mwandb[39m[22m: [33mWARNING[39m Ignored wandb.init() arg project when running a sweep.
