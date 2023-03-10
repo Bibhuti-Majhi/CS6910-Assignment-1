@@ -1,0 +1,26 @@
+wandb_version: 1
+
+activation:
+  value: relu
+batchsize:
+  value: 64
+eta:
+  value: 0.005
+initialization:
+  value: he
+loss:
+  value: cross
+max_epochs:
+  value: 5
+no_of_classes:
+  value: 10
+no_of_features:
+  value: 784
+no_of_layers:
+  value: 6
+no_of_neurons:
+  value: 64
+optimizer:
+  value: adam
+weight_decay:
+  value: 0

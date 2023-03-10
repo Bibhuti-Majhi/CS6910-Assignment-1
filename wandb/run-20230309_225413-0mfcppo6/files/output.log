@@ -1,0 +1,3 @@
+
+[34m[1mwandb[39m[22m: Ctrl + C detected. Stopping sweep.
+Error in callback <function _WandbInit._pause_backend at 0x297a5ed40> (for post_run_cell):

@@ -1,0 +1,8 @@
+
+[34m[1mwandb[39m[22m: Ctrl + C detected. Stopping sweep.
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+Create sweep with ID: wewsofir
+Sweep URL: https://wandb.ai/cs22m031/CS6910_DL_assignment_1/sweeps/wewsofir

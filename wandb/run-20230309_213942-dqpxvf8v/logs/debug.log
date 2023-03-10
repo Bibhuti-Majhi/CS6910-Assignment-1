@@ -1,0 +1,35 @@
+2023-03-09 21:39:42,761 INFO    Thread-181 (_run_job):18703 [wandb_setup.py:_flush():76] Configure stats pid to 18703
+2023-03-09 21:39:42,762 INFO    Thread-181 (_run_job):18703 [wandb_setup.py:_flush():76] Loading settings from /Users/crysiswar999/.config/wandb/settings
+2023-03-09 21:39:42,762 INFO    Thread-181 (_run_job):18703 [wandb_setup.py:_flush():76] Loading settings from /Users/crysiswar999/Documents/GitHub/CS6910-Assignment-1/wandb/settings
+2023-03-09 21:39:42,762 INFO    Thread-181 (_run_job):18703 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'CS6910_DL_assignment_1', 'entity': 'cs22m031', 'root_dir': '/Users/crysiswar999/Documents/GitHub/CS6910-Assignment-1', 'run_id': 'dqpxvf8v', 'sweep_param_path': '/Users/crysiswar999/Documents/GitHub/CS6910-Assignment-1/wandb/sweep-n0ddhmwf/config-dqpxvf8v.yaml', 'sweep_id': 'n0ddhmwf'}
+2023-03-09 21:39:42,762 INFO    Thread-181 (_run_job):18703 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-09 21:39:42,762 INFO    Thread-181 (_run_job):18703 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-09 21:39:42,762 INFO    Thread-181 (_run_job):18703 [wandb_init.py:_log_setup():506] Logging user logs to /Users/crysiswar999/Documents/GitHub/CS6910-Assignment-1/wandb/run-20230309_213942-dqpxvf8v/logs/debug.log
+2023-03-09 21:39:42,762 INFO    Thread-181 (_run_job):18703 [wandb_init.py:_log_setup():507] Logging internal logs to /Users/crysiswar999/Documents/GitHub/CS6910-Assignment-1/wandb/run-20230309_213942-dqpxvf8v/logs/debug-internal.log
+2023-03-09 21:39:42,763 INFO    Thread-181 (_run_job):18703 [wandb_init.py:init():546] calling init triggers
+2023-03-09 21:39:42,763 INFO    Thread-181 (_run_job):18703 [wandb_init.py:init():552] wandb.init called with sweep_config: {'activation': 'relu', 'batchsize': 256, 'eta': 0.0001, 'initialization': 'he', 'loss': 'cross', 'max_epochs': 5, 'no_of_classes': 10, 'no_of_features': 784, 'no_of_layers': 3, 'no_of_neurons': 256, 'optimizer': 'RMSprop', 'weight_decay': 0}
+config: {'_name': 'wandb.config'}
+2023-03-09 21:39:42,763 INFO    Thread-181 (_run_job):18703 [wandb_init.py:init():602] starting backend
+2023-03-09 21:39:42,763 INFO    Thread-181 (_run_job):18703 [wandb_init.py:init():606] setting up manager
+2023-03-09 21:39:42,776 INFO    Thread-181 (_run_job):18703 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-03-09 21:39:42,780 INFO    Thread-181 (_run_job):18703 [wandb_init.py:init():613] backend started and connected
+2023-03-09 21:39:42,788 INFO    Thread-181 (_run_job):18703 [wandb_run.py:_config_callback():1249] config_cb None None {'activation': 'relu', 'batchsize': 256, 'eta': 0.0001, 'initialization': 'he', 'loss': 'cross', 'max_epochs': 5, 'no_of_classes': 10, 'no_of_features': 784, 'no_of_layers': 3, 'no_of_neurons': 256, 'optimizer': 'RMSprop', 'weight_decay': 0}
+2023-03-09 21:39:42,794 INFO    Thread-181 (_run_job):18703 [wandb_run.py:_label_probe_notebook():1202] probe notebook
+2023-03-09 21:39:42,795 INFO    Thread-181 (_run_job):18703 [wandb_run.py:_label_probe_notebook():1212] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-09 21:39:42,795 INFO    Thread-181 (_run_job):18703 [wandb_init.py:init():701] updated telemetry
+2023-03-09 21:39:42,819 INFO    Thread-181 (_run_job):18703 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-09 21:39:43,694 INFO    Thread-181 (_run_job):18703 [wandb_run.py:_on_init():2131] communicating current version
+2023-03-09 21:39:43,762 INFO    Thread-181 (_run_job):18703 [wandb_run.py:_on_init():2140] got version response 
+2023-03-09 21:39:43,763 INFO    Thread-181 (_run_job):18703 [wandb_init.py:init():789] starting run threads in backend
+2023-03-09 21:39:43,851 INFO    Thread-181 (_run_job):18703 [wandb_run.py:_console_start():2112] atexit reg
+2023-03-09 21:39:43,851 INFO    Thread-181 (_run_job):18703 [wandb_run.py:_redirect():1967] redirect: SettingsConsole.WRAP_RAW
+2023-03-09 21:39:43,851 INFO    Thread-181 (_run_job):18703 [wandb_run.py:_redirect():2032] Wrapping output streams.
+2023-03-09 21:39:43,851 INFO    Thread-181 (_run_job):18703 [wandb_run.py:_redirect():2057] Redirects installed.
+2023-03-09 21:39:43,852 INFO    Thread-181 (_run_job):18703 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-09 21:43:40,307 INFO    Thread-181 (_run_job):18703 [wandb_run.py:_finish():1852] finishing run cs22m031/CS6910_DL_assignment_1/dqpxvf8v
+2023-03-09 21:43:40,309 INFO    Thread-181 (_run_job):18703 [wandb_run.py:_atexit_cleanup():2081] got exitcode: 0
+2023-03-09 21:43:40,310 INFO    Thread-181 (_run_job):18703 [wandb_run.py:_restore():2064] restore
+2023-03-09 21:43:40,310 INFO    Thread-181 (_run_job):18703 [wandb_run.py:_restore():2070] restore done
+2023-03-09 21:43:45,645 INFO    Thread-181 (_run_job):18703 [wandb_run.py:_footer_history_summary_info():3429] rendering history
+2023-03-09 21:43:45,646 INFO    Thread-181 (_run_job):18703 [wandb_run.py:_footer_history_summary_info():3461] rendering summary
+2023-03-09 21:43:45,656 INFO    Thread-181 (_run_job):18703 [wandb_run.py:_footer_sync_info():3387] logging synced files
