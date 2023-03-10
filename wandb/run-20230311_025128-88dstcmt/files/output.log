@@ -1,0 +1,8 @@
+
+[34m[1mwandb[39m[22m: Ctrl + C detected. Stopping sweep.
+Error in callback <function _WandbInit._pause_backend at 0x28dd40af0> (for post_run_cell):
+Error in callback <function _WandbInit._resume_backend at 0x28dd40a60> (for pre_run_cell):
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+Create sweep with ID: ct573x2s
+Sweep URL: https://wandb.ai/cs22m031/CS6910_DL_assignment_1/sweeps/ct573x2s
