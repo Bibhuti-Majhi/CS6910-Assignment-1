@@ -27,3 +27,13 @@ config: {}
 2023-03-11 02:54:08,914 INFO    Thread-6 (_run_job):44681 [wandb_run.py:_redirect():2032] Wrapping output streams.
 2023-03-11 02:54:08,914 INFO    Thread-6 (_run_job):44681 [wandb_run.py:_redirect():2057] Redirects installed.
 2023-03-11 02:54:08,914 INFO    Thread-6 (_run_job):44681 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-11 03:25:02,644 INFO    Thread-6 (_run_job):44681 [wandb_run.py:_finish():1852] finishing run cs22m031/CS6910_DL_assignment_1/p3dxlz9m
+2023-03-11 03:25:02,652 INFO    Thread-6 (_run_job):44681 [jupyter.py:save_history():445] not saving jupyter history
+2023-03-11 03:25:02,652 INFO    Thread-6 (_run_job):44681 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-03-11 03:25:02,652 INFO    Thread-6 (_run_job):44681 [wandb_init.py:_jupyter_teardown():434] cleaning up jupyter logic
+2023-03-11 03:25:02,653 INFO    Thread-6 (_run_job):44681 [wandb_run.py:_atexit_cleanup():2081] got exitcode: 0
+2023-03-11 03:25:02,654 INFO    Thread-6 (_run_job):44681 [wandb_run.py:_restore():2064] restore
+2023-03-11 03:25:02,656 INFO    Thread-6 (_run_job):44681 [wandb_run.py:_restore():2070] restore done
+2023-03-11 03:25:26,945 INFO    Thread-6 (_run_job):44681 [wandb_run.py:_footer_history_summary_info():3429] rendering history
+2023-03-11 03:25:26,948 INFO    Thread-6 (_run_job):44681 [wandb_run.py:_footer_history_summary_info():3461] rendering summary
+2023-03-11 03:25:26,977 INFO    Thread-6 (_run_job):44681 [wandb_run.py:_footer_sync_info():3387] logging synced files

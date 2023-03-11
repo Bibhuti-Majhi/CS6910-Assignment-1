@@ -1,0 +1,33 @@
+{
+    "os": "macOS-12.6-arm64-arm-64bit",
+    "python": "3.10.6",
+    "heartbeatAt": "2023-03-11T09:56:15.010736",
+    "startedAt": "2023-03-11T09:56:14.069427",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "Assignment_1-jvsc-d90f9e76-28e3-446e-bded-d3cdfd7c46a90e845e6d-396e-49aa-9f74-3dd72bd1af61.ipynb",
+    "root": "/Users/crysiswar999/Documents/GitHub/CS6910-Assignment-1",
+    "git": {
+        "remote": "https://github.com/Bibhuti-Majhi/CS6910-Assignment-1.git",
+        "commit": "7572ab8a913eb157c99f97547636ef145b89615a"
+    },
+    "email": "cs22m031@smail.iitm.ac.in",
+    "host": "Bibhutis-Air.iitmlan",
+    "username": "crysiswar999",
+    "executable": "/opt/homebrew/opt/python@3.10/bin/python3.10",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "total": 228.27386474609375,
+        "used": 102.7887077331543
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 8.0
+    }
+}
